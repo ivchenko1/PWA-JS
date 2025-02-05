@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PWA PIAC - Strona Główna</title>
+    <title>Memy z Kotami</title>
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -12,8 +12,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="theme-color" content="#db4938">
     <meta name="apple-mobile-web-app-title" content="PWA PIAC">
-    <!-- Splash Screen dla urządzeń Apple -->
-    <!-- … (pozostałe tagi splash) … -->
   </head>
   <body>
     <header>
@@ -27,11 +25,20 @@
 
     <div class="container">
       <main>
-        <h1 class="title">Witamy w aplikacji PWA PIAC</h1>
-        <p>Przykładowa aplikacja Progressive Web App prezentująca memy z kotami.</p>
-        <img src="images/cat-meme1.jpg" alt="Przykładowy mem z kotem" class="responsive-img">
+        <h1 class="title">Memy z Kotami</h1>
+        <section class="meme-gallery">
+          <article class="meme">
+            <img src="images/cat-meme1.jpg" alt="Meme 1">
+            <p>To jest (nie)śmieszny mem z kotem numer 1.</p>
+          </article>
+          <article class="meme">
+            <img src="images/cat-meme2.jpg" alt="Meme 2">
+            <p>To jest (nie)śmieszny mem z kotem numer 2.</p>
+          </article>
+          <!-- Dodaj więcej artykułów z memami -->
+        </section>
       </main>
     </div>
-    <script src="js/main.js"></script>
+    <script src="js/meme.js"></script>
   </body>
 </html>
