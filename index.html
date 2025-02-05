@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Memy z Kotami</title>
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/pwa-icon-152.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="PWA Memy z Kotami">
+    <meta name="theme-color" content="#db4938">
+
+    <link rel="apple-touch-startup-image" href="images/splash-640x1136.png" media="(device-width: 320px) and (device-height: 568px)">
+    <link rel="apple-touch-startup-image" href="images/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px)">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Witaj w aplikacji Memy z Kotami!</h1>
+            <nav>
+                <a href="/">Strona główna</a>
+                <a href="pages/about.html">O nas</a>
+                <a href="pages/memes.html">Memy z Kotami</a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Najlepsze Memy z Kotami</h2>
+            <p>Nasza aplikacja zawiera kolekcję śmiesznych memów z kotami!</p>
+
+            <section class="memes-gallery">
+                <div class="meme-item">
+                    <img src="images/cat-meme1.jpg" alt="Meme 1">
+                    <p>Śmieszny kotek z dużymi oczami</p>
+                </div>
+                <div class="meme-item">
+                    <img src="images/cat-meme2.jpg" alt="Meme 2">
+                    <p>Uroczy kotek w kapeluszu</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

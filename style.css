@@ -1,0 +1,148 @@
+html, body {
+    font-family: sans-serif;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+/* -------------- */
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ /* ------------   */
+ button {
+    background-color: #db4938;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.1); /* Powiększa przycisk przy najechaniu */
+  }
+  /* ------------- */
+  img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards; /* Animacja przy ładowaniu obrazu */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .section {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #db4938;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.memes-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.meme-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.meme-item img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+  
